@@ -4,7 +4,7 @@ from pupdb.core import PupDB
 db = PupDB('db.json')
 
 # Ghi dữ liệu vào file db.json
-db.set('name', 'LapTrinhAI')
+db.set('name', 'Thành Đạt')
 db.set('email', 'laptrinh@example.com')
 
 # Đọc dữ liệu
@@ -23,7 +23,7 @@ db.remove('name')
 print("Dumps:", db.dumps())
 
 # Xóa toàn bộ dữ liệu
-db.truncate_db()
+# db.truncate_db()
 
 # In lại nội dung sau khi xóa
 print("Sau khi truncate:", db.dumps())
