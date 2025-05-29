@@ -49,6 +49,79 @@ score_manager/
 └── requirements.txt # Danh sách dependencies
 ```
 
+## Công nghệ và Kỹ thuật
+
+### Công nghệ chính
+1. **Backend**
+   - Python 3.6+
+   - PupDB (Cơ sở dữ liệu key-value)
+   - Flask (Web framework)
+   - SQLAlchemy (ORM cho các tính năng nâng cao)
+   - JWT (JSON Web Tokens cho xác thực)
+
+2. **Frontend**
+   - React.js (Thư viện UI)
+   - Material-UI (Component library)
+   - Redux (State management)
+   - Chart.js (Visualization)
+
+3. **DevOps & Tools**
+   - Docker (Containerization)
+   - Git (Version control)
+   - Travis CI (Continuous Integration)
+   - pytest (Unit testing)
+   - Black (Code formatting)
+   - Flake8 (Linting)
+
+### Kỹ thuật và Thuật toán
+
+1. **Xử lý dữ liệu**
+   - Thuật toán sắp xếp nhanh (QuickSort) cho việc sắp xếp điểm số
+   - Thuật toán tìm kiếm nhị phân (Binary Search) cho tìm kiếm hiệu quả
+   - Cấu trúc dữ liệu B-tree cho việc lập chỉ mục
+   - MapReduce cho xử lý dữ liệu lớn
+
+2. **Phân tích và Thống kê**
+   - Thuật toán phân cụm K-means cho phân loại học sinh
+   - Hồi quy tuyến tính cho dự đoán xu hướng
+   - Phân tích phương sai (ANOVA) cho so sánh nhóm
+   - Thuật toán Apriori cho phân tích mẫu điểm số
+
+3. **Bảo mật**
+   - Mã hóa AES-256 cho dữ liệu nhạy cảm
+   - Bcrypt cho mã hóa mật khẩu
+   - OAuth 2.0 cho xác thực
+   - Rate limiting cho API protection
+
+4. **Tối ưu hóa**
+   - Caching với Redis
+   - Connection pooling cho database
+   - Lazy loading cho dữ liệu lớn
+   - Compression cho dữ liệu lưu trữ
+
+5. **Kiến trúc**
+   - Microservices architecture
+   - Event-driven design
+   - RESTful API design
+   - CQRS pattern cho xử lý dữ liệu
+
+### Công cụ phát triển
+1. **IDE & Editor**
+   - VS Code với Python extension
+   - PyCharm Professional
+   - Jupyter Notebook cho phân tích
+
+2. **Testing & Quality**
+   - pytest cho unit testing
+   - Selenium cho UI testing
+   - SonarQube cho code quality
+   - Coverage.py cho test coverage
+
+3. **Documentation**
+   - Sphinx cho API documentation
+   - Swagger/OpenAPI cho API specs
+   - MkDocs cho user documentation
+
 ## Chức năng chính
 
 1. **Quản lý điểm số**
