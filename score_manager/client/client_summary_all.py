@@ -4,7 +4,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from client_base import ClientBase
 
 if __name__ == "__main__":
-    # Khởi tạo client cho môn A (có thể dùng bất kỳ môn nào vì summary_score không phụ thuộc vào môn học)
+    # Khởi tạo client cho môn
     client = ClientBase("A")
     
     student_id = input("Nhập mã số sinh viên: ")

@@ -28,6 +28,7 @@ try:
             print(f"  - Điểm chuyên cần 2: {student.get('cc2')}")
             print(f"  - Điểm giữa kỳ: {student.get('midterm')}")
             print(f"  - Điểm cuối kỳ: {student.get('final')}")
+            print(f"  - Điểm tổng kết: {student.get('score')}")
             print("---")
 except Exception as e:
     print(f"\n❌ Lỗi: {str(e)}")

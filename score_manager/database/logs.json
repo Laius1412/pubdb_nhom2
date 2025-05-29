@@ -1,0 +1,247 @@
+[
+  {
+    "timestamp": "2025-05-29T09:06:48.431005",
+    "action": "get_student",
+    "node_id": "node_a",
+    "details": {
+      "student_id": "SV001"
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:06:52.524837",
+    "action": "add",
+    "node_id": "node_a",
+    "details": {
+      "student_id": "SV001",
+      "data": {
+        "id": "SV001",
+        "name": "Nguyen Van A",
+        "cc1": 10.0,
+        "cc2": 9.0,
+        "midterm": 8.0,
+        "final": 8.0,
+        "score": 8.15
+      }
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:06:54.572551",
+    "action": "calculate_score",
+    "node_id": "manager",
+    "details": {
+      "student_id": "SV001",
+      "score": 8.15,
+      "subject": "A"
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:07:42.345678",
+    "action": "get_student",
+    "node_id": "node_b",
+    "details": {
+      "student_id": "SV001"
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:07:46.439442",
+    "action": "add",
+    "node_id": "node_b",
+    "details": {
+      "student_id": "SV001",
+      "data": {
+        "id": "SV001",
+        "name": "Nguyen Van A",
+        "cc1": 10.0,
+        "cc2": 10.0,
+        "midterm": 8.3,
+        "final": 7.8,
+        "score": 8.17
+      }
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:07:48.478124",
+    "action": "calculate_score",
+    "node_id": "manager",
+    "details": {
+      "student_id": "SV001",
+      "score": 8.17,
+      "subject": "B"
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:08:05.913766",
+    "action": "get_student",
+    "node_id": "node_c",
+    "details": {
+      "student_id": "SV001"
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:08:10.007668",
+    "action": "add",
+    "node_id": "node_c",
+    "details": {
+      "student_id": "SV001",
+      "data": {
+        "id": "SV001",
+        "name": "Nguyen Van A",
+        "cc1": 9.0,
+        "cc2": 8.0,
+        "midterm": 10.0,
+        "final": 9.0,
+        "score": 9.25
+      }
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:08:12.056793",
+    "action": "calculate_score",
+    "node_id": "manager",
+    "details": {
+      "student_id": "SV001",
+      "score": 9.25,
+      "subject": "C"
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:08:29.887787",
+    "action": "get_all",
+    "node_id": "node_a",
+    "details": {},
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:08:31.930641",
+    "action": "get_all",
+    "node_id": "manager",
+    "details": {
+      "subject": "A"
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:08:55.370705",
+    "action": "get_student",
+    "node_id": "node_a",
+    "details": {
+      "student_id": "SV003"
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:08:57.416038",
+    "action": "get_student",
+    "node_id": "manager",
+    "details": {
+      "id_or_name": "SV003",
+      "subject": "A"
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:09:16.345590",
+    "action": "get_student",
+    "node_id": "node_a",
+    "details": {
+      "student_id": "SV001"
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:09:18.386260",
+    "action": "get_student",
+    "node_id": "manager",
+    "details": {
+      "id_or_name": "SV001",
+      "subject": "A"
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:12:15.269483",
+    "action": "get_student",
+    "node_id": "node_a",
+    "details": {
+      "student_id": "SV002"
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:12:17.314851",
+    "action": "get_student",
+    "node_id": "manager",
+    "details": {
+      "id_or_name": "SV002",
+      "subject": "A"
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:12:54.437125",
+    "action": "get_score",
+    "node_id": "node_a",
+    "details": {
+      "student_id": "SV001",
+      "score": 8.15
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:12:58.526519",
+    "action": "get_score",
+    "node_id": "node_b",
+    "details": {
+      "student_id": "SV001",
+      "score": 8.17
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:13:02.640078",
+    "action": "get_score",
+    "node_id": "node_c",
+    "details": {
+      "student_id": "SV001",
+      "score": 9.25
+    },
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-05-29T09:13:04.678626",
+    "action": "summary_score",
+    "node_id": "manager",
+    "details": {
+      "student_id": "SV001",
+      "results": {
+        "A": {
+          "id": "SV001",
+          "name": "Nguyen Van A",
+          "score": 8.15
+        },
+        "B": {
+          "id": "SV001",
+          "name": "Nguyen Van A",
+          "score": 8.17
+        },
+        "C": {
+          "id": "SV001",
+          "name": "Nguyen Van A",
+          "score": 9.25
+        },
+        "total": 25.57
+      },
+      "subject": "all"
+    },
+    "status": "success"
+  }
+]

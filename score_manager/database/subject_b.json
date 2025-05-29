@@ -1,2 +1,27 @@
 {
+  "SV001": {
+    "id": "SV001",
+    "name": "Nguyen Van A",
+    "cc1": 10.0,
+    "cc2": 10.0,
+    "midterm": 8.3,
+    "final": 7.8,
+    "score": 8.17
+  },
+  "SV002": {
+    "id": "SV002",
+    "name": "Nguyen Van B",
+    "cc1": 10.0,
+    "cc2": 9.0,
+    "midterm": 7.6,
+    "final": 8.3
+  },
+  "SV003": {
+    "id": "SV003",
+    "name": "Nguyen Van C",
+    "cc1": 10.0,
+    "cc2": 9.0,
+    "midterm": 6.5,
+    "final": 9.2
+  }
 }

@@ -3,7 +3,8 @@ import os
 import json
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from nodes.base_node import BaseNode
+from base_node import BaseNode
+from config import NODES
 
 def init_database(db_path):
     """Khởi tạo file database nếu chưa tồn tại hoặc không hợp lệ"""
@@ -24,14 +25,10 @@ def init_database(db_path):
             with open(db_path, 'w') as f:
                 json.dump({}, f)
 
-if __name__ == "__main__":
-    # Đường dẫn đến file database
-    db_path = os.path.join(os.path.dirname(__file__), '..', 'database', 'subject_a.json')
-    
-    # Khởi tạo database
-    init_database(db_path)
-    
-    # Khởi động node
-    node = BaseNode(db_path)
-    print("Node A đang chạy trên port 5001...")
-    node.app.run(port=5001)
+if __name__ == '__main__':
+    node = BaseNode(
+        node_id='node_a',
+        port=NODES['node_a']['port'],
+        db_path=NODES['node_a']['db_path']
+    )
+    node.run()

@@ -1,15 +1,28 @@
-PORTS = {
-    "MANAGER": 5000,
-    "SUBJECT_A": 5001,
-    "SUBJECT_B": 5002,
-    "SUBJECT_C": 5003
+# Cấu hình cho các node
+NODES = {
+    'node_a': {
+        'port': 5001,
+        'db_path': '../database/subject_a.json'
+    },
+    'node_b': {
+        'port': 5002,
+        'db_path': '../database/subject_b.json'
+    },
+    'node_c': {
+        'port': 5003,
+        'db_path': '../database/subject_c.json'
+    },
+    'logger': {
+        'port': 5004,
+        'db_path': '../database/logs.json'
+    }
 }
 
-NODE_URLS = {
-    'A': f'http://localhost:{PORTS["SUBJECT_A"]}',
-    'B': f'http://localhost:{PORTS["SUBJECT_B"]}',
-    'C': f'http://localhost:{PORTS["SUBJECT_C"]}'
-}
+# Cấu hình cho manager node
+MANAGER_PORT = 5000
+
+# Cấu hình cho client
+CLIENT_PORT = 5005
 
 SCORE_WEIGHTS = {
     'CC1': 0.05,
